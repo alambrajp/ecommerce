@@ -65,3 +65,35 @@
 #26 /home/runner/work/ecommerce/ecommerce/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
 #27 {main}
 "} 
+[2025-07-16 13:19:39] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /home/runner/work/ecommerce/ecommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:200)
+[stacktrace]
+#0 /home/runner/work/ecommerce/ecommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(125): Illuminate\\Log\\LogManager->resolve()
+#1 /home/runner/work/ecommerce/ecommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(112): Illuminate\\Log\\LogManager->get()
+#2 /home/runner/work/ecommerce/ecommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(590): Illuminate\\Log\\LogManager->driver()
+#3 /home/runner/work/ecommerce/ecommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(247): Illuminate\\Log\\LogManager->error()
+#4 /home/runner/work/ecommerce/ecommerce/vendor/nunomaduro/collision/src/Adapters/Laravel/ExceptionHandler.php(46): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#5 /home/runner/work/ecommerce/ecommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(366): NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler->report()
+#6 /home/runner/work/ecommerce/ecommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 /home/runner/work/ecommerce/ecommerce/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2025-07-16 13:19:39] laravel.ERROR: chdir(): No such file or directory (errno 2) {"exception":"[object] (ErrorException(code: 0): chdir(): No such file or directory (errno 2) at /home/runner/work/ecommerce/ecommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/ServeCommand.php:43)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/runner/work/ecommerce/ecommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/ServeCommand.php(43): chdir()
+#2 /home/runner/work/ecommerce/ecommerce/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Foundation\\Console\\ServeCommand->handle()
+#3 /home/runner/work/ecommerce/ecommerce/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#4 /home/runner/work/ecommerce/ecommerce/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#5 /home/runner/work/ecommerce/ecommerce/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#6 /home/runner/work/ecommerce/ecommerce/vendor/laravel/framework/src/Illuminate/Container/Container.php(653): Illuminate\\Container\\BoundMethod::call()
+#7 /home/runner/work/ecommerce/ecommerce/vendor/laravel/framework/src/Illuminate/Console/Command.php(136): Illuminate\\Container\\Container->call()
+#8 /home/runner/work/ecommerce/ecommerce/vendor/symfony/console/Command/Command.php(298): Illuminate\\Console\\Command->execute()
+#9 /home/runner/work/ecommerce/ecommerce/vendor/laravel/framework/src/Illuminate/Console/Command.php(120): Symfony\\Component\\Console\\Command\\Command->run()
+#10 /home/runner/work/ecommerce/ecommerce/vendor/symfony/console/Application.php(1040): Illuminate\\Console\\Command->run()
+#11 /home/runner/work/ecommerce/ecommerce/vendor/symfony/console/Application.php(301): Symfony\\Component\\Console\\Application->doRunCommand()
+#12 /home/runner/work/ecommerce/ecommerce/vendor/symfony/console/Application.php(171): Symfony\\Component\\Console\\Application->doRun()
+#13 /home/runner/work/ecommerce/ecommerce/vendor/laravel/framework/src/Illuminate/Console/Application.php(94): Symfony\\Component\\Console\\Application->run()
+#14 /home/runner/work/ecommerce/ecommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#15 /home/runner/work/ecommerce/ecommerce/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#16 {main}
+"} 
